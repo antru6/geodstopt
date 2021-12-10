@@ -31,9 +31,9 @@ kubectl -n gdobench get pods
 
 When the datasets are loaded, you should get the following output:
 ```bash
-NAME  			STATUS
-lucas-all-pod		Running
-invekos-all-pod		Running
+NAME                STATUS
+lucas-all-pod       Running
+invekos-all-pod     Running
 ```
 
 Check if the data are actually stored, for each pod.
@@ -61,5 +61,9 @@ kubectl delete benchmarks.kobe.semagrow.org --all
 kubectl delete federatortemplates.kobe.semagrow.org --all
 kubectl delete datasettemplates.kobe.semagrow.org --all
 ```
-and then redo the steps from the beginning for the other queries of the benchmar.
+and then redo the steps from the beginning for the other queries of the benchmark.
  
+## Source code
+
+The source code of the version of Semagrow that contains the optimization can be found at
+(./semagrow.tar.gz)[./semagrow.tar.gz]
