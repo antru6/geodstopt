@@ -1,4 +1,6 @@
-# Instructions to deploy a KOBE experiment
+# A Geospatial Join Optimization for Federated GeoSPARQL querying
+
+In the following we provide instuctions how to run the experiments shown in the paper.
 
 ## Prerequisites
 
@@ -66,4 +68,4 @@ and then redo the steps from the beginning for the other queries of the benchmar
 ## Source code
 
 The source code of the version of Semagrow that contains the optimization can be found at
-(./semagrow.tar.gz)[./semagrow.tar.gz]
+[./semagrow.tar.gz](./semagrow.tar.gz)
